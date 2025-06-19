@@ -1,7 +1,7 @@
 export default function CTASection() {
   const handleLearnMore = () => {
     // Lógica para conocer más sobre Capital Infinity
-    console.log('Conocer Capital Infinity');
+    console.log('Conocer Capital Infinity :D');
   };
       
   
