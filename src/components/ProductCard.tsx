@@ -1,11 +1,10 @@
-import React from 'react';
 import type { Product } from '../types';
 
 interface ProductCardProps {
   product: Product;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="relative mb-12">
 
@@ -54,5 +53,3 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     </div>
   );
 };
-
-export default ProductCard;

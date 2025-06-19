@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../components/Header';  
 import HeroSection from '../components/HeroSection';
 import StatsSection from '../components/StatsSection';
@@ -18,7 +17,7 @@ export interface Product {
   logo: string;
 }
 
-const CapitalPage: React.FC = () => {
+export default function CapitalPage() {
 
   
   return (
@@ -57,5 +56,3 @@ const CapitalPage: React.FC = () => {
     </div>
   );
 };
-
-export default CapitalPage;
