@@ -18,11 +18,8 @@ export interface Product {
 }
 
 export default function CapitalPage() {
-
-  
   return (
-    <div className="min-h-screen  text-white overflow-hidden relative">
-
+    <div className="min-h-screen text-white overflow-hidden relative">
       {/* Header */}
       <Header/>
 
@@ -33,14 +30,29 @@ export default function CapitalPage() {
           <HeroSection/>
         </div>
 
-        {/* Mapear todos los productos */}
-        <div className="space-y-12 mt-12">
-          {products.map((product) => (
-            <ProductCard 
-              key={product.name} 
-              product={product} 
-            />
-          ))}
+        {/* Timeline - Se muestra una sola vez */}
+        <div className="relative w-full mt-12">
+          {/* Timeline para móvil */}
+          <img 
+            src="/img/roadmap_mob.png" 
+            alt="Roadmap" 
+            className="w-full h-auto md:hidden" 
+          />
+          
+          {/* Timeline para desktop */}
+          <img 
+            src="/img/roadmap_des.png" 
+            alt="Roadmap" 
+            className="w-full h-auto hidden md:block" 
+          />
+          
+          {/* Contenedor para las tarjetas */}
+          <div className="absolute inset-0">
+            {/* Aquí irían las tarjetas posicionadas manualmente */}
+            {products.map((product) => (
+              <ProductCard key={product.name} product={product} />
+            ))}
+          </div>
         </div>
 
         {/* Stats Section */} 
@@ -55,4 +67,4 @@ export default function CapitalPage() {
       </main>
     </div>
   );
-};
+}

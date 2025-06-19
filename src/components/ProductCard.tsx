@@ -7,9 +7,6 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <div className="relative mb-4">
-
-      <img src="img/roadmap_mob.png" alt="" />
-
       {/* Product Card */}
       <div className={`${
         product.position === 'left' 
