@@ -6,7 +6,9 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <div className="relative mb-12">
+    <div className="relative mb-4">
+
+      <img src="img/roadmap_mob.png" alt="" />
 
       {/* Product Card */}
       <div className={`${
@@ -14,12 +16,12 @@ export default function ProductCard({ product }: ProductCardProps) {
           ? 'pr-8 text-right mr-4' 
           : 'pl-8 text-left ml-4'
       }`}>
-        <div className=" backdrop-blur-sm p-6 max-w-sm shadow-xl">
+        <div className=" backdrop-blur-sm p-2 max-w-sm shadow-xl">
           {/* Logo */}
           <div className={`flex ${
             product.position === 'left' ? 'justify-end' : 'justify-start'
           } mb-4`}>
-            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-lg overflow-hidden">
+            <div className="w-20 h-20  flex items-center justify-center ">
               {product.logo.endsWith('.png') || product.logo.endsWith('.jpg') || product.logo.endsWith('.svg') ? (
                 <img 
                   src={product.logo} 

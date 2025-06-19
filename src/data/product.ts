@@ -5,7 +5,7 @@ export const products: Product[] = [
     name: 'CCX Card',
     title: 'Tu cripto, en una tarjeta global.',
     subtitle: 'Regístrate al pre-lanzamiento.',
-    logo: '/img/crypto.png',
+    logo: 'img/Lanzamiento Tarjeta.png',
     position: 'left',
   },
   {

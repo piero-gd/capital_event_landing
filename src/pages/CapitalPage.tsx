@@ -21,7 +21,7 @@ export default function CapitalPage() {
 
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-600 via-yellow-500 to-black text-white overflow-hidden relative">
+    <div className="min-h-screen  text-white overflow-hidden relative">
 
       {/* Header */}
       <Header/>
