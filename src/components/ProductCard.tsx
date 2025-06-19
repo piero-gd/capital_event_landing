@@ -15,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           ? 'pr-8 text-right mr-4' 
           : 'pl-8 text-left ml-4'
       }`}>
-        <div className="bg-black bg-opacity-80 backdrop-blur-sm border border-gray-700 rounded-xl p-6 max-w-sm shadow-xl">
+        <div className=" backdrop-blur-sm p-6 max-w-sm shadow-xl">
           {/* Logo */}
           <div className={`flex ${
             product.position === 'left' ? 'justify-end' : 'justify-start'

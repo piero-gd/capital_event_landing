@@ -30,7 +30,9 @@ const CapitalPage: React.FC = () => {
       {/* Main Content */}
       <main className="relative z-10 px-6">
         {/* Hero Section */}
-        <HeroSection />
+        <div className="mt-12">
+          <HeroSection/>
+        </div>
 
         {/* Mapear todos los productos */}
         <div className="space-y-12 mt-12">
