@@ -3,19 +3,8 @@ import HeroSection from '../components/HeroSection';
 import StatsSection from '../components/StatsSection';
 import CTASection from '../components/CTASection';
 import ImageCard from '../components/ImageCard';
-import ProductCard from '../components/ProductCard';
+import ProductCards from '../components/ProductCard';
 import PreLaunch from '../components/PreLaunch';
-import { products } from '../data/product';
-
-export interface Product {
-  id: string;
-  icon: string;
-  name: string;
-  title: string;
-  subtitle: string;
-  position: string;
-  logo: string;
-}
 
 export default function CapitalPage() {
   return (
@@ -26,32 +15,31 @@ export default function CapitalPage() {
       {/* Main Content */}
       <main className="relative px-2">
         {/* Hero Section */}
-        <div className="mt-12">
+        <div className="mt-12 mb-20">
           <HeroSection/>
         </div>
 
         {/* Timeline - Se muestra una sola vez */}
-        <div className="relative w-full mt-12">
+        <div className="relative w-full -mt-5 md:-mt-5" style={{ zIndex: 1 }}>
+          {/* Contenedor absoluto para tarjetas que pueden salir del contenedor */}
+          <div className="absolute w-full" style={{ top: '-100px', bottom: '0' }}>
+            <ProductCards />
+          </div>
+          
           {/* Timeline para móvil */}
-          <img 
-            src="/img/roadmap_mob.png" 
-            alt="Roadmap" 
-            className="w-full h-auto md:hidden" 
-          />
+          <div className="relative z-0">
+            <img 
+              src="/img/roadmap_mob.png" 
+              className="w-full h-auto md:hidden" 
+            />
+          </div>
           
           {/* Timeline para desktop */}
-          <img 
-            src="/img/roadmap_des.png" 
-            alt="Roadmap" 
-            className="w-full h-auto hidden md:block" 
-          />
-          
-          {/* Contenedor para las tarjetas */}
-          <div className="absolute inset-0">
-            {/* Aquí irían las tarjetas posicionadas manualmente */}
-            {products.map((product) => (
-              <ProductCard key={product.name} product={product} />
-            ))}
+          <div className="relative z-0">
+            <img 
+              src="/img/roadmap_des.png" 
+              className="w-full h-auto hidden md:block" 
+            />
           </div>
         </div>
 

@@ -1,54 +1,79 @@
-import type { Product } from '../types';
-
-interface ProductCardProps {
-  product: Product;
-}
-
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCards() {
   return (
-    <div className="relative mb-4">
-      {/* Product Card */}
-      <div className={`${
-        product.position === 'left' 
-          ? 'pr-8 text-right mr-4' 
-          : 'pl-8 text-left ml-4'
-      }`}>
-        <div className=" backdrop-blur-sm p-2 max-w-sm shadow-xl">
-          {/* Logo */}
-          <div className={`flex ${
-            product.position === 'left' ? 'justify-end' : 'justify-start'
-          } mb-4`}>
-            <div className="w-20 h-20  flex items-center justify-center ">
-              {product.logo.endsWith('.png') || product.logo.endsWith('.jpg') || product.logo.endsWith('.svg') ? (
-                <img 
-                  src={product.logo} 
-                  alt={product.name} 
-                  className="w-full h-full object-contain p-1"
-                />
-              ) : (
-                <span className="text-black font-bold text-lg">{product.logo}</span>
-              )}
-            </div>
-          </div>
-          
-          {/* Product Name */}
-          <h3 className="font-bold text-white text-lg mb-2 leading-tight">
-            {product.name}
-          </h3>
-          
-          {/* Product Description */}
-          <div className="space-y-1">
-            <p className="text-sm text-gray-200 leading-relaxed">
-              {product.title}
-            </p>
-            {product.subtitle && (
-              <p className="text-sm text-gray-200 leading-relaxed">
-                {product.subtitle}
-              </p>
-            )}
-          </div>
+    <>
+      {/* CCX Card */}
+      <div className="absolute top-[7%] right-[24%] w-64">
+        <div className="relative">
+          <img 
+            src="img/Lanzamiento Tarjeta.png" 
+            alt="CCX Card" 
+            className="absolute top-0 left-0 w-45 h-45"
+          />
+          <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
+            <b>CCX Card</b> tu cripto, en una tarjeta global.
+            Regístrate al pre-lanzamiento.
+          </p>
         </div>
       </div>
-    </div>
+
+      {/* CAPITAL STAKING X */}
+      <div className="absolute top-[29%] right-[4%] w-64">
+        <div className="relative">
+          <img 
+            src="/img/crypto.png" 
+            alt="CAPITAL STAKING X" 
+            className="absolute top-0 right-1 w-28 h-15 mb-2"
+          />
+          <p className="text-sm px-2 text-gray-200 mb-0 absolute top-15 right-0 text-right">
+            <b>CAPITAL STAKING X</b> Tu bienestar financiero empieza con
+            Blockchain real.
+          </p>
+        </div>
+      </div>
+
+      {/* Capital Crypto X */}
+      <div className="absolute top-[45%] right-[25%] w-64">
+        <div className="relative">
+          <img 
+            src="/img/crypto.png" 
+            alt="Capital Crypto X" 
+            className="absolute top-0 left-0 w-28 h-15 mb-2"
+          />
+          <p className="text-sm text-gray-200 mb-0 absolute top-15 left-0">
+            <b>Capital Crypto X</b> Compra, vende y envía cripto al instante.
+          </p>
+        </div>
+      </div>
+
+      {/* INFINITY ACADEMY */}
+      <div className="absolute top-[60%] left-[10%] w-64">
+        <div className="relative">
+          <img 
+            src="/img/crypto.png" 
+            alt="INFINITY ACADEMY" 
+            className="absolute top-0 right-0 w-45 h-45"
+          />
+          <p className="text-sm text-gray-200 mb-0 absolute top-35 right-1 text-right">
+            <b>INFINITY ACADEMY</b> Domina los mercados, aprende Trading y
+            controla tus emociones
+          </p>
+        </div>
+      </div>
+
+      {/* Capital CashX */}
+      <div className="absolute top-[75%] right-[10%] w-64">
+        <div className="relative">
+          <img 
+            src="/img/crypto.png" 
+            alt="Capital CashX" 
+            className="absolute top-0 left-0 w-45 h-45"
+          />
+          <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
+            <b>Capital CashX</b> Cambia tu moneda al mejor precio, de manera
+            rápida y segura!
+          </p>
+        </div>
+      </div>
+    </>
   );
-};
+}
