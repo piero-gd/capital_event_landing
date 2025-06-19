@@ -27,7 +27,7 @@ export default function CapitalPage() {
       <Header/>
 
       {/* Main Content */}
-      <main className="relative z-10 px-6">
+      <main className="relative px-2">
         {/* Hero Section */}
         <div className="mt-12">
           <HeroSection/>
