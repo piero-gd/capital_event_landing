@@ -11,7 +11,7 @@ export default function ProductCards() {
       <div className="md:hidden absolute top-[7%] left-[4%] w-64">
         <div className="relative">
           <a 
-            href="https://forms.gle/gq8jKku5Y2FWmTpu5" 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdihExEA3f6fqIg-BQ-oGo3SKrfeQjpO0pbkjcaj1TRbFdDzw/viewform" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute top-0 left-0 w-45 h-45 z-10"
@@ -147,7 +147,7 @@ export default function ProductCards() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {/* Tarjeta CCX Card */}
           <a 
-            href="https://forms.gle/gq8jKku5Y2FWmTpu5"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdihExEA3f6fqIg-BQ-oGo3SKrfeQjpO0pbkjcaj1TRbFdDzw/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
