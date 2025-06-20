@@ -12,7 +12,7 @@ export default function CapitalPage() {
       {/* Main Content */}
       <main className="relative px-2">
         {/* Hero Section */}
-        <div className="mt-0 mb-0 md:mb-20">
+        <div className="mt-10 mb-0 md:mb-20">
           <HeroSection/>
         </div>
 

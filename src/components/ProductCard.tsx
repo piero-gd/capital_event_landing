@@ -34,7 +34,7 @@ export default function ProductCards() {
       <div className="md:hidden absolute top-[27%] right-[4%] w-64">
         <div className="relative">
           <a 
-            href="https://staking.capitalinfinity.io/" 
+            href="https://capitalstakingx.com" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute top-1 right-1 w-36 h-23 mb-2 z-10"
@@ -57,7 +57,7 @@ export default function ProductCards() {
       <div className="md:hidden absolute top-[43%] right-[25%] w-64">
         <div className="relative">
           <a 
-            href="https://exchange.capitalinfinity.io/" 
+            href="https://capitalcryptox.com/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute top-0 left-0 w-30 h-20 mb-2 z-10"
@@ -79,7 +79,7 @@ export default function ProductCards() {
       <div className="md:hidden absolute top-[58%] left-[24%] w-64">
         <div className="relative">
           <a 
-            href="https://academy.capitalinfinity.io/" 
+            href="https://infinityacademy.pro/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute -top-0 right-0 left-26 w-45 h-25 z-10"
@@ -102,7 +102,7 @@ export default function ProductCards() {
       <div className="md:hidden absolute top-[72%] right-[24%] w-64">
         <div className="relative">
           <a 
-            href="https://cash.capitalinfinity.io/" 
+            href="https://capitalcashx.com/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute top-0 left-0 w-35 h-20 z-10"
@@ -164,7 +164,7 @@ export default function ProductCards() {
 
           {/* Tarjeta Capital Staking X */}
           <a 
-            href="https://staking.capitalinfinity.io/"
+            href="https://capitalstakingx.com"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
@@ -180,7 +180,7 @@ export default function ProductCards() {
 
           {/* Tarjeta Capital Crypto X */}
           <a 
-            href="https://exchange.capitalinfinity.io/"
+            href="https://capitalcryptox.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
@@ -196,7 +196,7 @@ export default function ProductCards() {
 
           {/* Tarjeta Infinity Academy */}
           <a 
-            href="https://academy.capitalinfinity.io/"
+            href="https://infinityacademy.pro/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
@@ -212,7 +212,7 @@ export default function ProductCards() {
 
           {/* Tarjeta Capital CashX */}
           <a 
-            href="https://cash.capitalinfinity.io/"
+            href="https://capitalcashx.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
@@ -230,7 +230,6 @@ export default function ProductCards() {
           <a 
             href="/info"
             target="_blank"
-            rel="noopener noreferrer"
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
           >
             <div className="flex flex-col items-center text-center">
