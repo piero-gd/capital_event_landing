@@ -20,7 +20,11 @@ const InfoPage: React.FC = () => {
       />
 
       {/* Encabezado */}
-      <section className="flex flex-col items-center text-center space-y-4 z-10 pt-8 md:pt-12 md:mb-12">
+      <section
+        className="flex flex-col items-center text-center space-y-4 z-10 pt-8 md:pt-12 md:mb-12"
+        data-aos="fade-down"
+      >
+        {/* Logo y título */}
         <img
           src="/img/INFINITY REAL STATE 3.png"
           alt="logo"
@@ -32,7 +36,11 @@ const InfoPage: React.FC = () => {
       </section>
 
       {/* Imagen 1 (arriba en mobile, derecha en desktop) */}
-      <div className="w-full flex justify-center mt-6 mb-6 md:hidden z-10">
+      <div
+        className="w-full flex justify-center mt-6 mb-6 md:hidden z-10"
+        data-aos="zoom-in"
+      >
+        {/* Imagen 1 */}
         <img
           src="/img/Infinity Real state.png"
           alt="Infografía top"
@@ -41,7 +49,10 @@ const InfoPage: React.FC = () => {
       </div>
 
       {/* Layout principal */}
-      <section className="w-full flex flex-col md:flex-row md:justify-center md:items-start md:gap-12 mt-0 md:mt-6 mb-10 relative overflow-visible max-w-6xl mx-auto">
+      <section
+        className="w-full flex flex-col md:flex-row md:justify-center md:items-start md:gap-12 mt-0 md:mt-6 mb-10 relative overflow-visible max-w-6xl mx-auto"
+        data-aos="fade-up"
+      >
         {/* Columna izquierda */}
         <div className="flex-1 flex flex-col items-center md:items-start md:text-left">
           {/* ¿Qué es la tokenización? */}
@@ -112,7 +123,11 @@ const InfoPage: React.FC = () => {
       </section>
 
       {/* ¿Qué busca Infinity Real State? solo en mobile */}
-      <section className="md:hidden w-full max-w-[370px] text-center z-10 px-4 mt-8 mb-4">
+      <section
+        className="md:hidden w-full max-w-[370px] text-center z-10 px-4 mt-8 mb-4"
+        data-aos="fade-up"
+      >
+        {/* ¿Qué busca Infinity Real State? mobile */}
         <h2 className="text-2xl font-semibold text-white">
           ¿Qué busca Infinity Real State?
         </h2>
@@ -126,7 +141,11 @@ const InfoPage: React.FC = () => {
       </section>
 
       {/* Imagen inferior solo en mobile */}
-      <section className="mt-4 z-10 mb-18 md:hidden">
+      <section
+        className="mt-4 z-10 mb-18 md:hidden"
+        data-aos="fade-up"
+      >
+        {/* Imagen inferior mobile */}
         <img
           src="/img/Image Real State 2.png"
           alt="Infografía bottom"

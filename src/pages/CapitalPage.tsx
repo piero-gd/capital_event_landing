@@ -10,7 +10,7 @@ export default function CapitalPage() {
     
 
       {/* Main Content */}
-      <main className="relative px-2">
+      <main className="relative px-2" data-aos="fade-up">
         {/* Hero Section */}
         <div className="mt-10 mb-0 md:mb-20">
           <HeroSection/>
@@ -37,15 +37,13 @@ export default function CapitalPage() {
       </main>
 
  {/* Stats Section */} 
- <div className="mt-12">
+ <div className="mt-12" data-aos="fade-up" data-aos-delay="200">
         <StatsSection/>
 </div>
-<div className="mt-0">  
+<div className="mt-0" data-aos="fade-up" data-aos-delay="400">
         <PreLaunch />
 </div>
-        {/* CTA Section */}
-
-<div className="mt-0 mb-20">  
+<div className="mt-0 mb-20" data-aos="fade-up" data-aos-delay="600">
         <CTASection />
 </div>
 

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import AOS from 'aos';
 import './index.css';
 
 // Componentes de páginas
@@ -40,6 +41,10 @@ const Loading = () => (
 );
 
 const App: React.FC = () => {
+  useEffect(() => {
+    AOS.init({ once: true, duration: 800, offset: 80 });
+  }, []);
+
   return (
     <Router>
       <div className="relative min-h-screen w-full bg-black text-white flex flex-col items-center overflow-hidden">

@@ -8,7 +8,7 @@ export default function ProductCards() {
       </div>
 
       {/* CCX Card */}
-      <div className="md:hidden absolute top-[7%] right-[24%] w-64">
+      <div className="md:hidden absolute top-[7%] left-[4%] w-64">
         <div className="relative">
           <a 
             href="https://forms.gle/gq8jKku5Y2FWmTpu5" 
@@ -24,7 +24,7 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
-            <b>CCX Card</b> Tu cripto, en una tarjeta global.
+            <b>CCX Card, Tu cripto, <p></p> en una tarjeta global. </b><p></p>
             Regístrate al pre-lanzamiento.
           </p>
         </div>
@@ -47,14 +47,14 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm px-2 text-gray-200 mb-0 absolute top-21 right-0 text-right">
-            <b>CAPITAL STAKING X</b> Tu bienestar financiero empieza con
+            Tu bienestar financiero empieza con
             Blockchain real.
           </p>
         </div>
       </div>
 
       {/* Capital Crypto X */}
-      <div className="md:hidden absolute top-[43%] right-[25%] w-64">
+      <div className="md:hidden absolute top-[43%] left-[4%] w-64">
         <div className="relative">
           <a 
             href="https://capitalcryptox.com/" 
@@ -70,13 +70,13 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-20 left-0">
-            <b>Capital Crypto X</b> Compra, vende y envía cripto al instante.
+            Compra, vende y envía cripto al instante.
           </p>
         </div>
       </div>
 
       {/* INFINITY ACADEMY */}
-      <div className="md:hidden absolute top-[58%] left-[24%] w-64">
+      <div className="md:hidden absolute top-[58%] right-[4%] w-64">
         <div className="relative">
           <a 
             href="https://infinityacademy.pro/" 
@@ -92,14 +92,14 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-20 right-1 text-right">
-            <b>INFINITY ACADEMY</b> Domina los mercados, aprende Trading y
+            Domina los mercados, aprende Trading y
             controla tus emociones
           </p>
         </div>
       </div>
 
       {/* Capital CashX */}
-      <div className="md:hidden absolute top-[72%] right-[24%] w-64">
+      <div className="md:hidden absolute top-[72%] left-[4%] w-64">
         <div className="relative">
           <a 
             href="https://capitalcashx.com/" 
@@ -115,13 +115,13 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-18 left-1">
-            <b>Capital CashX</b> Cambia tu moneda al mejor precio, de manera
+            Cambia tu moneda al mejor precio, de manera
             rápida y segura.
           </p>
         </div>
       </div>
 
-      <div className="md:hidden absolute top-[85%] left-[24%] w-64"> 
+      <div className="md:hidden absolute top-[85%] right-[4%] w-64"> 
         <div className="relative">
           <a 
             href="/info" 
@@ -137,8 +137,7 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-18 right-1 text-right">
-            <b>Capital Real State</b> Invierte en bienes raíces de manera
-            inteligente y segura.
+            Pioneros en tokenización inmobiliaria desde Perú.
           </p>
         </div>
       </div>
@@ -156,7 +155,7 @@ export default function ProductCards() {
             <div className="flex flex-col items-center text-center h-full">
               <img src="img/Lanzamiento Tarjeta.png" alt="CCX Card" className="w-26 h-28 md:w-24 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
-                <b>CCX Card</b> tu cripto, en una tarjeta global.
+                <b>CCX Card</b> Tu cripto, en una tarjeta global.
                 Regístrate al pre-lanzamiento.
               </p>
             </div>
