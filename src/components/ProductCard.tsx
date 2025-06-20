@@ -61,15 +61,29 @@ export default function ProductCards() {
       </div>
 
       {/* Capital CashX */}
-      <div className="absolute top-[75%] right-[10%] w-64">
+      <div className="absolute top-[72%] right-[24%] w-64">
         <div className="relative">
           <img 
-            src="/img/CAPITAL-CASHX 1.png" 
+            src="/img/CAPITAL-CASH 1.png" 
             alt="Capital CashX" 
-            className="absolute top-0 left-0 w-45 h-45"
+            className="absolute top-0 left-0 w-35 h-20"
           />
-          <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
+          <p className="text-sm text-gray-200 mb-0 absolute top-18 left-1">
             <b>Capital CashX</b> Cambia tu moneda al mejor precio, de manera
+            rápida y segura!
+          </p>
+        </div>
+      </div>
+
+      <div className="absolute top-[85%] left-[24%] w-64"> 
+        <div className="relative">
+          <img 
+            src="/img/INFINITY REAL STATE 2 1.png" 
+            alt="Capital Real State" 
+            className="absolute top-0 right-0 w-24 h-20"
+          />
+          <p className="text-sm text-gray-200 mb-0 absolute top-18 right-1 text-right">
+            <b>Capital Real State</b> Cambia tu moneda al mejor precio, de manera
             rápida y segura!
           </p>
         </div>

@@ -2,12 +2,20 @@
 @import 'tailwindcss';
 
 :root {
-  --primary-gold: #facc15;
-  --secondary-gold: #f59e0b;
+  --primary-gold: #FABB30;
+  --secondary-gold: #F59E0B;
   --black: #0a0a0a;
   --white: #fff;
   --gray: #666;
   --light-gray: #ccc;
+  --text-primary-gold: var(--primary-gold);
+  --text-secondary-gold: var(--secondary-gold);
+  --bg-primary-gold: var(--primary-gold);
+  --bg-secondary-gold: var(--secondary-gold);
+  --bg-black: var(--black);
+  --bg-white: var(--white);
+  --bg-gray: var(--gray);
+  --bg-light-gray: var(--light-gray);
 }
 
 body {

@@ -2,7 +2,6 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import StatsSection from '../components/StatsSection';
 import CTASection from '../components/CTASection';
-import ImageCard from '../components/ImageCard';
 import ProductCards from '../components/ProductCard';
 import PreLaunch from '../components/PreLaunch';
 
@@ -43,16 +42,23 @@ export default function CapitalPage() {
           </div>
         </div>
 
-        {/* Stats Section */} 
-        <StatsSection />
-
-        <ImageCard />
-
-        <PreLaunch />
-
-        {/* CTA Section */}
-        <CTASection />
+       
       </main>
+
+ {/* Stats Section */} 
+ <div className="mt-8">
+        <StatsSection/>
+</div>
+<div className="mt-8">  
+        <PreLaunch />
+</div>
+        {/* CTA Section */}
+
+<div className="mt-8">  
+        <CTASection />
+</div>
+
+
     </div>
   );
 }

@@ -1,13 +1,24 @@
 export default function StatsSection() {
   return (
-    <section className="mb-8">
-      <div className="bg-black bg-opacity-40 backdrop-blur-sm border border-yellow-400 rounded-2xl p-6 text-center">
-        <div className="mb-4">
-          <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-3">
-            <span className="text-black text-xl">📊</span>
+    <section className="mb-4 mt-10 md:mt-25 w-full max-w-4xl mx-auto px-4">
+      <div className="bg-black/90 md:bg-black/20 backdrop-blur-sm border border-yellow-400 rounded-2xl p-4 md:p-6 text-center">
+        <div className="flex flex-col items-center">
+          {/* Icon */}
+          <div className="w-16 h-16 bg-yellow-800 rounded-full flex items-center justify-center mb-4">
+            <img 
+              src="img/img.png" 
+              alt="Users"
+              className="w-8 h-8 md:w-10 md:h-10"
+            />
           </div>
-          <p className="text-lg font-semibold text-white">+10,000 personas ya usan Capital</p>
-          <p className="text-lg font-semibold text-white">Infinity en Latinoamérica.</p>
+          
+          {/* Text */}
+          <p className="text-sm md:text-base lg:text-lg font-semibold text-white">
+            <span className="text-primary-gold">+10,000</span> personas ya usan{' '}
+            <span className="block">
+              <span className="text-primary-gold">Capital Infinity</span> en Latinoamérica
+            </span>
+          </p>
         </div>
       </div>
     </section>
