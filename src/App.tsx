@@ -49,16 +49,32 @@ const App: React.FC = () => {
         {/* Fondos para móvil */}
         <div className="md:hidden">
           <div className="fixed inset-0 bg-gradient-to-b from-black via-black to-transparent">
-            <div className="absolute inset-0 bg-[url('/img/bg_sup_m.png')] bg-cover bg-no-repeat bg-top mix-blend-overlay"></div>
+            <div className="absolute inset-0 bg-[url('/img/bg_sup_m.png')] bg-cover bg-no-repeat bg-top "></div>
             <div className="absolute inset-0 bg-[url('/img/bg_inf_m.png')] bg-cover bg-no-repeat bg-bottom mix-blend-overlay"></div>
           </div>
         </div>
         
         {/* Fondos para desktop */}
-      <div className="hidden md:block">
-        <div className="fixed inset-0 bg-[url('/img/bg_sup_d.png')] bg-cover bg-no-repeat bg-top"></div>
-        <div className="fixed inset-0 bg-[url('/img/bg_inf_d.png')] bg-cover bg-no-repeat bg-bottom"></div>
-      </div>
+        <div className="hidden md:block">
+          <div
+            className="fixed inset-0 pointer-events-none"
+            style={{
+              backgroundImage: "url('/img/bg_sup_d.png')",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "top left",
+              backgroundSize: "480px auto" // Ajusta el tamaño aquí
+            }}
+          ></div>
+          <div
+            className="fixed inset-0 pointer-events-none"
+            style={{
+              backgroundImage: "url('/img/bg_inf_d.png')",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "bottom right",
+              backgroundSize: "480px auto" // Ajusta el tamaño aquí
+            }}
+          ></div>
+        </div>
       
       {/* Contenido principal */}
       <div className="relative w-full max-w-7xl px-4 sm:px-6 lg:px-8 z-10">
