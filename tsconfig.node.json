@@ -5,7 +5,10 @@
     "lib": ["ES2023"],
     "types": ["node"],
     "module": "ESNext",
+    "moduleResolution": "NodeNext",
     "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
     "moduleResolution": "node",
