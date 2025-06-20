@@ -10,12 +10,19 @@ export default function ProductCards() {
       {/* CCX Card */}
       <div className="md:hidden absolute top-[7%] right-[24%] w-64">
         <div className="relative">
-          <img 
-            src="img/Lanzamiento Tarjeta.png" 
-            alt="CCX Card" 
-            onClick={() => window.open('https://forms.gle/gq8jKku5Y2FWmTpu5', '_blank')}
-            className="absolute top-0 left-0 w-45 h-45"
-          />
+          <a 
+            href="https://forms.gle/gq8jKku5Y2FWmTpu5" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-0 left-0 w-45 h-45 z-10"
+            style={{ display: 'block', width: '180px', height: '180px' }}
+          >
+            <img 
+              src="img/Lanzamiento Tarjeta.png" 
+              alt="CCX Card" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
             <b>CCX Card</b> tu cripto, en una tarjeta global.
             Regístrate al pre-lanzamiento.
@@ -26,12 +33,19 @@ export default function ProductCards() {
       {/* CAPITAL STAKING X */}
       <div className="md:hidden absolute top-[27%] right-[4%] w-64">
         <div className="relative">
-          <img 
-            src="/img/CAPITAL-STAKING 1.png" 
-            alt="CAPITAL STAKING X" 
-            onClick={() => window.open('https://staking.capitalinfinity.io/', '_blank')}
-            className="absolute top-1 right-1 w-36 h-23 mb-2"
-          />
+          <a 
+            href="https://staking.capitalinfinity.io/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-1 right-1 w-36 h-23 mb-2 z-10"
+            style={{ display: 'block', width: '144px', height: '92px' }}
+          >
+            <img 
+              src="/img/CAPITAL-STAKING 1.png" 
+              alt="CAPITAL STAKING X" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm px-2 text-gray-200 mb-0 absolute top-21 right-0 text-right">
             <b>CAPITAL STAKING X</b> Tu bienestar financiero empieza con
             Blockchain real.
@@ -42,12 +56,19 @@ export default function ProductCards() {
       {/* Capital Crypto X */}
       <div className="md:hidden absolute top-[43%] right-[25%] w-64">
         <div className="relative">
-          <img 
-            src="/img/CAPITAL-CRYPTO 1.png" 
-            alt="Capital Crypto X" 
-            onClick={() => window.open('https://exchange.capitalinfinity.io/', '_blank')}
-            className="absolute top-0 left-0 w-30 h-20 mb-2"
-          />
+          <a 
+            href="https://exchange.capitalinfinity.io/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-0 left-0 w-30 h-20 mb-2 z-10"
+            style={{ display: 'block', width: '120px', height: '80px' }}
+          >
+            <img 
+              src="/img/CAPITAL-CRYPTO 1.png" 
+              alt="Capital Crypto X" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-20 left-0">
             <b>Capital Crypto X</b> Compra, vende y envía cripto al instante.
           </p>
@@ -57,12 +78,19 @@ export default function ProductCards() {
       {/* INFINITY ACADEMY */}
       <div className="md:hidden absolute top-[58%] left-[24%] w-64">
         <div className="relative">
-          <img 
-            src="/img/INFINITY-ACADEMY 1.png" 
-            alt="INFINITY ACADEMY" 
-            onClick={() => window.open('https://academy.capitalinfinity.io/', '_blank')}
-            className="absolute -top-0 right-0 left-26 w-45 h-25"
-          />
+          <a 
+            href="https://academy.capitalinfinity.io/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute -top-0 right-0 left-26 w-45 h-25 z-10"
+            style={{ display: 'block', width: '180px', height: '100px' }}
+          >
+            <img 
+              src="/img/INFINITY-ACADEMY 1.png" 
+              alt="INFINITY ACADEMY" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-20 right-1 text-right">
             <b>INFINITY ACADEMY</b> Domina los mercados, aprende Trading y
             controla tus emociones
@@ -73,12 +101,19 @@ export default function ProductCards() {
       {/* Capital CashX */}
       <div className="md:hidden absolute top-[72%] right-[24%] w-64">
         <div className="relative">
-          <img 
-            src="/img/CAPITAL-CASH 1.png" 
-            alt="Capital CashX" 
-            onClick={() => window.open('https://cash.capitalinfinity.io/', '_blank')}
-            className="absolute top-0 left-0 w-35 h-20"
-          />
+          <a 
+            href="https://cash.capitalinfinity.io/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-0 left-0 w-35 h-20 z-10"
+            style={{ display: 'block', width: '140px', height: '80px' }}
+          >
+            <img 
+              src="/img/CAPITAL-CASH 1.png" 
+              alt="Capital CashX" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-18 left-1">
             <b>Capital CashX</b> Cambia tu moneda al mejor precio, de manera
             rápida y segura!
@@ -88,12 +123,19 @@ export default function ProductCards() {
 
       <div className="md:hidden absolute top-[85%] left-[24%] w-64"> 
         <div className="relative">
-          <img 
-            src="/img/INFINITY REAL STATE 2 1.png" 
-            alt="Capital Real State" 
-            onClick={() => window.open('/info', '_blank')}
-            className="absolute top-0 right-0 w-24 h-20"
-          />
+          <a 
+            href="/info" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="absolute top-0 right-0 w-24 h-20 z-10"
+            style={{ display: 'block', width: '96px', height: '80px' }}
+          >
+            <img 
+              src="/img/INFINITY REAL STATE 2 1.png" 
+              alt="Capital Real State" 
+              className="w-full h-full object-contain"
+            />
+          </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-18 right-1 text-right">
             <b>Capital Real State</b> Invierte en bienes raíces de manera
             inteligente y segura.
@@ -101,74 +143,104 @@ export default function ProductCards() {
         </div>
       </div>
 
-      {/* Versión escritorio - Solo logos y textos */}
+      {/* Versión escritorio - Toda la tarjeta clickeable */}
       <div className="hidden md:flex flex-col items-center w-full max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
           {/* Tarjeta CCX Card */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
-            <div className="flex flex-col items-center text-center">
-              <img src="img/Lanzamiento Tarjeta.png" onClick={() => window.open('https://forms.gle/gq8jKku5Y2FWmTpu5', '_blank')} alt="CCX Card" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+          <a 
+            href="https://forms.gle/gq8jKku5Y2FWmTpu5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
+            <div className="flex flex-col items-center text-center h-full">
+              <img src="img/Lanzamiento Tarjeta.png" alt="CCX Card" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>CCX Card</b> tu cripto, en una tarjeta global.
                 Regístrate al pre-lanzamiento.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Tarjeta Capital Staking X */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
+          <a 
+            href="https://staking.capitalinfinity.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
             <div className="flex flex-col items-center text-center">
-              <img src="img/CAPITAL-STAKING 1.png" onClick={() => window.open('https://staking.capitalinfinity.io/', '_blank')} alt="Capital Staking X" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/CAPITAL-STAKING 1.png" alt="Capital Staking X" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>CAPITAL STAKING X</b> genera ganancias pasivas con tus criptoactivos.
                 Asegura tu lugar en la lista de espera.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Tarjeta Capital Crypto X */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
+          <a 
+            href="https://exchange.capitalinfinity.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
             <div className="flex flex-col items-center text-center">
-              <img src="img/CAPITAL-CRYPTO 1.png" onClick={() => window.open('https://exchange.capitalinfinity.io/', '_blank')} alt="Capital Crypto X" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/CAPITAL-CRYPTO 1.png" alt="Capital Crypto X" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>Capital Crypto X</b> la mejor plataforma para operar criptoactivos.
                 Únete a la lista de espera.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Tarjeta Infinity Academy */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
+          <a 
+            href="https://academy.capitalinfinity.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
             <div className="flex flex-col items-center text-center">
-              <img src="img/INFINITY-ACADEMY 1.png" onClick={() => window.open('https://academy.capitalinfinity.io/', '_blank')} alt="Infinity Academy" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/INFINITY-ACADEMY 1.png" alt="Infinity Academy" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>INFINITY ACADEMY</b> Domina los mercados, aprende Trading y
                 controla tus emociones
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Tarjeta Capital CashX */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
+          <a 
+            href="https://cash.capitalinfinity.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
             <div className="flex flex-col items-center text-center">
-              <img src="img/CAPITAL-CASH 1.png" onClick={() => window.open('https://cash.capitalinfinity.io/', '_blank')} alt="Capital CashX" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/CAPITAL-CASH 1.png" alt="Capital CashX" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>Capital CashX</b> obtén préstamos rápidos con tus criptoactivos.
                 Sin verificación de crédito. Lista de espera abierta.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Tarjeta Capital Real State */}
-          <div className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300">
+          <a 
+            href="/info"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
+          >
             <div className="flex flex-col items-center text-center">
-              <img src="img/INFINITY REAL STATE 2 1.png" onClick={() => window.open('/info', '_blank')} alt="Capital Real State" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/INFINITY REAL STATE 2 1.png" alt="Capital Real State" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>Capital Real State</b> invierte en bienes raíces con cripto.
                 Fondo de inversión inmobiliaria.
               </p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </>
