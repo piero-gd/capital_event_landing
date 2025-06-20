@@ -1,6 +1,6 @@
 export default function PreLaunch() {
   const handlePreRegister = () => {
-    window.open('https://forms.gle/gq8jKku5Y2FWmTpu5', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdihExEA3f6fqIg-BQ-oGo3SKrfeQjpO0pbkjcaj1TRbFdDzw/viewform', '_blank');
   };
   
   return (
