@@ -31,7 +31,7 @@ export default function PreLaunch() {
             </p>
             
             <div className="mb-8 md:mb-12">
-              <p className="text-white text-lg mb-2">
+              <p className="text-white text-lg mb-0">
                 Solo 2,000 usuarios accederán primero.
               </p>
               <p className="text-white text-md">

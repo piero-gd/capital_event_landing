@@ -24,7 +24,7 @@ export default function ProductCards() {
             />
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-35 left-1">
-            <b>CCX Card</b> tu cripto, en una tarjeta global.
+            <b>CCX Card</b> Tu cripto, en una tarjeta global.
             Regístrate al pre-lanzamiento.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function ProductCards() {
           </a>
           <p className="text-sm text-gray-200 mb-0 absolute top-18 left-1">
             <b>Capital CashX</b> Cambia tu moneda al mejor precio, de manera
-            rápida y segura!
+            rápida y segura.
           </p>
         </div>
       </div>
@@ -131,7 +131,7 @@ export default function ProductCards() {
             style={{ display: 'block', width: '96px', height: '80px' }}
           >
             <img 
-              src="/img/INFINITY REAL STATE 2 1.png" 
+              src="/img/Real state imagen + titulo.png" 
               alt="Capital Real State" 
               className="w-full h-full object-contain"
             />
@@ -154,7 +154,7 @@ export default function ProductCards() {
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
           >
             <div className="flex flex-col items-center text-center h-full">
-              <img src="img/Lanzamiento Tarjeta.png" alt="CCX Card" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/Lanzamiento Tarjeta.png" alt="CCX Card" className="w-26 h-28 md:w-24 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>CCX Card</b> tu cripto, en una tarjeta global.
                 Regístrate al pre-lanzamiento.
@@ -233,7 +233,7 @@ export default function ProductCards() {
             className="bg-black/50 backdrop-blur-sm border border-yellow-500/30 rounded-lg p-4 hover:border-yellow-500/60 transition-all duration-300 block"
           >
             <div className="flex flex-col items-center text-center">
-              <img src="img/INFINITY REAL STATE 2 1.png" alt="Capital Real State" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
+              <img src="img/Real state imagen + titulo.png" alt="Capital Real State" className="w-28 h-28 md:w-32 md:h-32 object-contain mb-1 md:mb-0" />
               <p className="text-white text-sm md:mt-1">
                 <b>Capital Real State</b> invierte en bienes raíces con cripto.
                 Fondo de inversión inmobiliaria.

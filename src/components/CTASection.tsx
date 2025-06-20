@@ -1,7 +1,6 @@
 export default function CTASection() {
   const handleLearnMore = () => {
-    // Lógica para conocer más sobre Capital Infinity
-    console.log('Conocer Capital Infinity :D');
+    window.open("https://capitalinfinity.com/", "_blank");
   };
       
   
@@ -17,7 +16,7 @@ export default function CTASection() {
         <div className="flex justify-center">
           <button 
             onClick={handleLearnMore}
-            className="inline-flex items-center justify-center border border-gray-400 text-white px-8 py-3 rounded-full font-semibold text-sm hover:border-yellow-400 hover:text-yellow-400 transition-all duration-200 whitespace-nowrap"
+            className="inline-flex items-center justify-center border border-gray-400 text-white px-8 py-3 rounded-full font-semibold text-sm hover:border-yellow-400 hover:bg-gradient-to-r from-yellow-400 to-yellow-600 hover:text-black transition-all duration-200 whitespace-nowrap"
           >
             Conoce Capital Infinity
           </button>
