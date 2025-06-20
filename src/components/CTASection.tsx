@@ -1,6 +1,6 @@
 export default function CTASection() {
   const handleLearnMore = () => {
-    window.open("https://capitalinfinity.com/", "_blank");
+    window.open("https://wa.link/8vb84y", "_blank");
   };
       
   
