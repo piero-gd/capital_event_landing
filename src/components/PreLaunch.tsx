@@ -1,6 +1,6 @@
 export default function PreLaunch() {
   const handlePreRegister = () => {
-    console.log('Pre-registrarme ahora');
+    window.open('https://forms.gle/gq8jKku5Y2FWmTpu5', '_blank');
   };
   
   return (
@@ -11,13 +11,13 @@ export default function PreLaunch() {
           <img 
             src="img/CARD CTA MOBILE.png" 
             alt="CCX Card" 
-            className="w-full h-auto rounded-xl shadow-lg mx-auto"
+            className="w-full h-auto mx-auto"
           />
         </div>
 
         <div className="grid md:grid-cols-2 gap-2 items-center">
           {/* Content */}
-          <div className="text-center md:text-left">
+          <div className="text-left">
             <div className="inline-block px-6 py-2 border border-white rounded-full text-white text-sm mb-6">
               Pre - Lanzamiento
             </div>
@@ -26,7 +26,7 @@ export default function PreLaunch() {
               CCX Card
             </h1>
             
-            <p className="text-white text-xl mb-8 md:mb-12">
+            <p className="text-white text-xl mb-4 md:mb-6">
               Una sola tarjeta. Muchas puertas.
             </p>
             
@@ -34,7 +34,7 @@ export default function PreLaunch() {
               <p className="text-white text-lg mb-2">
                 Solo 2,000 usuarios accederán primero.
               </p>
-              <p className="text-white text-lg">
+              <p className="text-white text-md">
                 Haz tu pre-registro y asegura la tuya.
               </p>
             </div>

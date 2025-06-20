@@ -37,3 +37,25 @@ body {
   align-items: center;
 }
 
+/* Estilos para el timeline móvil */
+.timeline-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Línea vertical central */
+.timeline-vertical {
+  position: absolute;
+  left: 54.3%;  
+  opacity: 0.1;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--primary-gold);
+  z-index: 1;
+}

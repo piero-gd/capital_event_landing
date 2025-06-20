@@ -14,30 +14,23 @@ export default function CapitalPage() {
       {/* Main Content */}
       <main className="relative px-2">
         {/* Hero Section */}
-        <div className="mt-12 mb-20">
+        <div className="mt-0 mb-0 md:mb-20">
           <HeroSection/>
         </div>
 
-        {/* Timeline - Se muestra una sola vez */}
-        <div className="relative w-full -mt-5 md:-mt-5" style={{ zIndex: 1 }}>
-          {/* Contenedor absoluto para tarjetas que pueden salir del contenedor */}
-          <div className="absolute w-full" style={{ top: '-100px', bottom: '0' }}>
+        {/* Contenedor principal para el timeline */}
+        <div className="relative w-full -mt-5 md:mt-0 md:pb-4" style={{ zIndex: 1 }}>
+          {/* Contenedor absoluto para tarjetas */}
+          <div className="absolute w-full md:relative" style={{ top: '-100px', bottom: '0' }}>
             <ProductCards />
           </div>
           
-          {/* Timeline para móvil */}
-          <div className="relative z-0">
+          {/* Timeline solo para móvil */}
+          <div className="relative z-0 md:hidden">
             <img 
               src="/img/roadmap_mob.png" 
-              className="w-full h-auto md:hidden" 
-            />
-          </div>
-          
-          {/* Timeline para desktop */}
-          <div className="relative z-0">
-            <img 
-              src="/img/roadmap_des.png" 
-              className="w-full h-auto hidden md:block" 
+              className="w-full h-auto" 
+              alt="Timeline móvil"
             />
           </div>
         </div>
@@ -46,15 +39,15 @@ export default function CapitalPage() {
       </main>
 
  {/* Stats Section */} 
- <div className="mt-8">
+ <div className="mt-12">
         <StatsSection/>
 </div>
-<div className="mt-8">  
+<div className="mt-0">  
         <PreLaunch />
 </div>
         {/* CTA Section */}
 
-<div className="mt-8">  
+<div className="mt-0 mb-20">  
         <CTASection />
 </div>
 
